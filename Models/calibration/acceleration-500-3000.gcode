@@ -14,7 +14,7 @@ M109 S200 T0 ; custom hot end temp
 ;customstart
 G0 Z3; fix for delta printers that home at max
 M201 X50000 Y50000; custom raise acceleration limits
-M204 P3000 T3000 ; custom acceleration - A
+M204 P500 T500 ; custom acceleration - A
 M205 X8 Y8 ; custom jerk - A
 ;layer 1, Z = 0.200
 T0
@@ -1280,7 +1280,7 @@ G1 X84.7400 Y141.4280 E10.8941
 G1 X67.7400 Y141.4280 E11.5047
 G92 E0.0000
 G1 E-6 F2400 ; custom retraction
-M204 P2500 T2500 ; custom acceleration - B
+M204 P1000 T1000 ; custom acceleration - B
 M205 X8 Y8 ; custom jerk - B
 ;layer 26, Z = 5.200
 ;fan26;
@@ -2420,7 +2420,7 @@ G1 X84.7400 Y141.4280 E10.8941
 G1 X67.7400 Y141.4280 E11.5047
 G92 E0.0000
 G1 E-6 F2400 ; custom retraction
-M204 P2000 T2000 ; custom acceleration - C
+M204 P1500 T1500 ; custom acceleration - C
 M205 X8 Y8 ; custom jerk - C
 ;layer 51, Z = 10.200
 ;fan51;
@@ -3565,7 +3565,7 @@ G1 X84.7400 Y141.4280 E10.8941
 G1 X67.7400 Y141.4280 E11.5047
 G92 E0.0000
 G1 E-6 F2400 ; custom retraction
-M204 P1500 T1500 ; custom acceleration - D
+M204 P2000 T2000 ; custom acceleration - D
 M205 X8 Y8 ; custom jerk - D
 ;layer 76, Z = 15.200
 ;fan76;
@@ -4705,7 +4705,7 @@ G1 X84.7400 Y141.4280 E10.8941
 G1 X67.7400 Y141.4280 E11.5047
 G92 E0.0000
 G1 E-6 F2400 ; custom retraction
-M204 P1000 T1000 ; custom acceleration - E
+M204 P2500 T2500 ; custom acceleration - E
 M205 X8 Y8 ; custom jerk - E
 ;layer 101, Z = 20.200
 ;fan101;
@@ -5850,7 +5850,7 @@ G1 X84.7400 Y141.4280 E10.8941
 G1 X67.7400 Y141.4280 E11.5047
 G92 E0.0000
 G1 E-6 F2400 ; custom retraction
-M204 P500 T500 ; custom acceleration - F
+M204 P3000 T3000 ; custom acceleration - F
 M205 X8 Y8 ; custom jerk - F
 ;layer 126, Z = 25.200
 ;fan126;
