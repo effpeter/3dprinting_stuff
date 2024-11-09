@@ -1,0 +1,13 @@
+teljes atmero: 60 mm
+korom tavolsag: 59 mm
+korom alatti resz: 56 mm
+
+teljes atmero: 52.5 mm
+korom tavolsag: 49.5 mm
+korom alatti resz: 47.5 mm
+
+0.875
+
+eredeti: 47.5, 49.5, 52.5
+skoda wheelcap modell: 45, 48, 52
+sima modell: 56, 59, 60
