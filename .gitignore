@@ -1,0 +1,7 @@
+# FreeCAD auto-backups
+*.FCBak
+*FCStd1
+
+# editor / slicer temp files
+.~lock*
+*.tmp
